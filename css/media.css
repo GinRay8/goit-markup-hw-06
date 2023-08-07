@@ -152,6 +152,9 @@
   }
 
   .footer-container {
+    gap: unset;
+    flex-wrap: nowrap;
+    width: 100%;
     align-items: baseline;
   }
 
