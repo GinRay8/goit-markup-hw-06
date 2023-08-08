@@ -9,7 +9,13 @@
     max-width: 768px;
   }
 
+  .hamberger-button {
+    display: none;
+  }
+
   .header-menu {
+    margin-right: 120px;
+
     display: flex;
     gap: 40px;
   }
@@ -20,7 +26,7 @@
   }
 
   .header-adress-list {
-    display: flex;
+    /* display: flex; */
     gap: 40px;
     margin-right: auto;
   }
@@ -179,6 +185,31 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+  }
+
+  .header-container {
+    /* flex-grow: 0;
+    gap: 332px; */
+  }
+
+  .hamberger-button {
+    display: none;
+  }
+
+  .header-menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-adress {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-adress-list {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
   }
 
   .hero {

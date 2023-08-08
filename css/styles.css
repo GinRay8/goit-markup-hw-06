@@ -94,7 +94,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 332px;
+  /* gap: 332px; */
 }
 
 .header-navigation {
