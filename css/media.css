@@ -188,8 +188,8 @@
   }
 
   .header-container {
-    /* flex-grow: 0;
-    gap: 332px; */
+    flex-grow: 0;
+    gap: 332px;
   }
 
   .hamberger-button {
@@ -197,6 +197,7 @@
   }
 
   .header-menu {
+    margin-right: 0;
     display: flex;
     gap: 40px;
   }
