@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-navigation">
           <a href="./index.html" class="header-logo link">Web<span class="header-logo-color">Studio</span></a>
@@ -34,8 +34,13 @@
             <li class="header-adress-item"><a class="header-adress-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
+        <button type="button">
+          <svg class="header-hamberger" width="32px" height="22px">
+            <use href="./images/icons.svg#icon-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
     <main>
       <section class="hero">
         <div class="container hero-container">
@@ -95,9 +100,36 @@
         <div class="container">
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
-            <li class="work-item"><img src="./images/computer.jpg" alt="computer" width="360" height="300" class="work-img" /></li>
-            <li class="work-item"><img src="./images/application.jpg" alt="application" width="360" height="300" class="work-img" /></li>
-            <li class="work-item"><img src="./images/mobile-phone.jpg" alt="mobile phone" width="360" height="300" class="work-img" /></li>
+            <li class="work-item">
+              <img
+                srcset="./images/computer.jpg 1x, ./images/computer-2x.jpg 2x"
+                src="./images/computer.jpg"
+                alt="computer"
+                width="360"
+                height="300"
+                class="work-img"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                srcset="./images/application.jpg 1x, ./images/application-2x.jpg 2x"
+                src="./images/application.jpg"
+                alt="application"
+                width="360"
+                height="300"
+                class="work-img"
+              />
+            </li>
+            <li class="work-item">
+              <img
+                srcset="./images/mobile-phone.jpg 1x, ./images/mobile-phone-2x.jpg 2x"
+                src="./images/mobile-phone.jpg"
+                alt="mobile phone"
+                width="360"
+                height="300"
+                class="work-img"
+              />
+            </li>
           </ul>
         </div>
       </section>
@@ -106,7 +138,7 @@
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item list">
-              <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260" />
+              <img srcset="./images/mark.jpg 1x, ./images/mark-2x.jpg 2x" src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260" />
               <div class="team-subtitle-text">
                 <h3 class="team-subtitle">Mark Guerrero</h3>
                 <p class="team-item-text">Product Designer</p>
@@ -143,7 +175,7 @@
               </div>
             </li>
             <li class="team-item list">
-              <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260" />
+              <img srcset="./images/tom.jpg 1x, ./images/tom-2x.jpg 2x" src="./images/tom.jpg" alt="Tom Ford" width="264" height="260" />
               <div class="team-subtitle-text">
                 <h3 class="team-subtitle">Tom Ford</h3>
                 <p class="team-item-text">Frontend Developer</p>
@@ -180,7 +212,13 @@
               </div>
             </li>
             <li class="team-item list">
-              <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260" />
+              <img
+                srcset="./images/camila.jpg 1x, ./images/camila-2x.jpg 2x"
+                src="./images/camila.jpg"
+                alt="Camila Garcia"
+                width="264"
+                height="260"
+              />
               <div class="team-subtitle-text">
                 <h3 class="team-subtitle">Camila Garcia</h3>
                 <p class="team-item-text">Marketing</p>
@@ -217,7 +255,13 @@
               </div>
             </li>
             <li class="team-item list">
-              <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260" />
+              <img
+                srcset="./images/daniel.jpg 1x, ./images/daniel-2x.jpg 2x"
+                src="./images/daniel.jpg"
+                alt="Daniel Wilson"
+                width="264"
+                height="260"
+              />
               <div class="team-subtitle-text">
                 <h3 class="team-subtitle">Daniel Wilson</h3>
                 <p class="team-item-text">UI Designer</p>
